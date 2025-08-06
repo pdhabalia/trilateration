@@ -57,6 +57,9 @@
             },
             "development": {
               "buildTarget": "trilateration-map:build:development"
+            },
+            "options" : {
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
